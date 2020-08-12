@@ -90,6 +90,7 @@ object Main {
   }
   
   def main(args: Array[String]) = {
+    println("Test Main")
     parser.parse(args, defaultParams).map { param =>
       val conf = new SparkConf().setAppName("Node2Vec")
       val context: SparkContext = new SparkContext(conf)
