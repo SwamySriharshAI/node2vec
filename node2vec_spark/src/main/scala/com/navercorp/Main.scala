@@ -90,8 +90,7 @@ object Main {
   }
   
   def main(args: Array[String]) = {
-    println("Test Main")
-    /*parser.parse(args, defaultParams).map { param =>
+    parser.parse(args, defaultParams).map { param =>
       val conf = new SparkConf().setAppName("Node2Vec")
       val context: SparkContext = new SparkContext(conf)
       
@@ -115,6 +114,6 @@ object Main {
       }
     } getOrElse {
       sys.exit(1)
-    }*/
+    }
   }
 }
