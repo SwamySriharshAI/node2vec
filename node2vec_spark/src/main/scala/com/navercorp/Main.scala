@@ -12,10 +12,10 @@ object Main {
   }
   import Command._
 
-  case class Params(iter: Int = 40,
+  case class Params(iter: Int = 50,
                     lr: Double = 0.025,
                     numPartition: Int = 80,
-                    dim: Int = 300,
+                    dim: Int = 100,
                     window: Int = 10,
                     walkLength: Int = 80,
                     numWalks: Int = 10,
