@@ -12,7 +12,7 @@ object Main {
   }
   import Command._
 
-  case class Params(iter: Int = 50,
+  case class Params(iter: Int = 100,
                     lr: Double = 0.025,
                     numPartition: Int = 80,
                     dim: Int = 100,
